@@ -13,6 +13,8 @@ public class Main {
         int w;
 
 
+        //Array 1
+
         System.out.println("Input row:");
         Scanner scan = new Scanner(System.in);
         int row = scan.nextInt();
@@ -33,8 +35,7 @@ public class Main {
         }
 
 
-
-
+        //Array 2
 
         System.out.println("Input row:");
         int row2 = scan.nextInt();
@@ -46,9 +47,6 @@ public class Main {
 
         int[][] array2 = new int[row][column];
 
-
-
-
         for (k = 0;k < row2; k++){
             for (f = 0; f < column2; f++){
                 System.out.println("Input number:");
@@ -57,6 +55,8 @@ public class Main {
 
         }
 
+
+        //Adding Arrays
 
         int[][] totalArray = new int [row][column];
 
@@ -74,7 +74,6 @@ public class Main {
                 }
                 System.out.println();
             }
-
 
         }else{
             System.out.println("Can't add, different sizes.");
